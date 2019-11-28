@@ -1,8 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
-
-*
-{
+* {
   padding: 0;
   margin: 0;
 }
@@ -14,26 +12,261 @@ body {
   text-align: center;
 }
 
+.line {
+  color: orange;
+}
 
+hr {
+  background-image: orange;
+  width: 70% solid orange;
+}
+/* -----------------------------------------------------Nav------------------------------- */
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
 /* -----------------------------------------------------hero------------------------------- */
 .hero img {
   width: 100%;
+  margin-top: 50px;
 }
 
 /* <!---------------------------------------- about --------------------------------------------------> */
 
-#about  {
+#about {
   margin-top: 40px;
+  margin-bottom: 40px
+}
+
+#about h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#about h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+
+// ----------------------------------------------------------how
+
+#how {
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid orange;
+}
+
+#how h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#how h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+#how h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#how h3::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+#how p {
+  text-align: center;
+}
+
+
+.col-md-4 i {
+  text-align: center;
+}
+
+
+.fa-binoculars {
+ font-size: 5em;
+ text-align: center;
+ color: orange;
+ align-content: auto;
+ padding-bottom: 30px;
+ padding-left: 160px;
+}
+
+.fa-user-shield {
+  
+  font-size: 5em;
+  text-align: center;
+  color: orange;
+  align-content: auto;
+  padding-bottom: 30px;
+  padding-left: 160px;
+}
+
+.fa-edit {
+  font-size: 5em;
+  text-align: center;
+  color: orange;
+  align-content: auto;
+  padding-bottom: 30px;
+  padding-left: 160px;
+}
+
+
+
+// /* <!---------------------------------------- form --------------------------------------------------> */
+#form {
+  padding: 40px;
+  border-top: 1px solid orange;
+}
+
+#form h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#form h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.button {
+  padding-top: 20px;
+  padding-left: 47%;
+}
+/* <!---------------------------------------- Da Bears--------------------------------------------------> */
+
+.da-bears {
+  padding-top: 40px;
+  border: 1px solid orange;
+  margin: 50px auto;
+  background-color: white;
+}
+
+.da-bears h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.da-bears p {
+  text-align: center;
+
+  padding-bottom: 150px;
+}
+
+.da-bears h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.da-bears .row {
+  margin-top: 30px;
+}
+
+
+.profile {
+  padding: 100px 10px 10px;
+  background-color: #efefef;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border:  1px solid orange;
+}
+
+.profile img {
+  top: -60px;
+  position: absolute;
+  left: calc(50% - 90px);
+  border: 10px solid white;
+  
+}
+
+.bear {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
 }
 /* <!---------------------------------------- contact --------------------------------------------------> */
 
-.icons {
+
+
+.contact img{
   width: 40px;
   height: 40px;
+  margin: 20px;
+  margin-bottom: 40px;
 }
 
+.contact h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+.contact h1::after {
+  content: "";
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
 /* <!---------------------------------------- copyrights --------------------------------------------------> */
 
+.copy {
+  background-color: white;
+  border-top: 1px solid orange;
+  padding-top: 20px
+}
 .navbar-brand img {
   justify-content: center;
 }

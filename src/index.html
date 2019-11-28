@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/1c3c2830bd.js" crossorigin="anonymous"></script>
   <title>Bear Watcher</title>
 </head>
 <body>
   <!--------------------------------------------- Hero image ----------------------------------------->
-<div class="hero sticky-top">
+<div class="hero">
   <img src="/img/hero.png" alt="">
 </div>
 
@@ -16,20 +17,25 @@
   <!--------------------------------------------- nav ----------------------------------------->
   <section id="navbar">
      
-      <ul class="nav justify-content-center ">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center sticky-top">
+        <ul class="nav ml">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">How</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log It</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Da Bears</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
   </section>
   <!---------------------------------------- carousel -------------------------------------------------->
 <section id="carousel">
@@ -37,14 +43,26 @@
      <div class="carousel-inner">
        <div class="carousel-item active">
          <img src="/img/carousel_0000_Layer-2.png" class="d-block w-100" alt="">
+         <div class="carousel-caption d-none d-md-block">
+           <h3>Come See The Bears</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio doloribus velit vero atque sed distinctio temporibus? Dolore aspernatur, similique, illum consequatur doloremque perspiciatis ut delectus in corporis officiis quod sint.</p>
+         </div>
        </div>
 
        <div class="carousel-item">
          <img src="/img/carousel_0001_Layer-1.png" class="d-block w-100" alt="">
+         <div class="carousel-caption d-none d-md-block">
+            <h3>Log The Bears You See</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio doloribus velit vero atque sed distinctio temporibus? Dolore aspernatur, similique, illum consequatur doloremque perspiciatis ut delectus in corporis officiis quod sint.</p>
+          </div>
        </div>
 
        <div class="carousel-item">
          <img src="/img/carousel_0002_Screen-Shot-2019-11-25-at-6.29.24-PM.png" class="d-block w-100" alt="">
+         <div class="carousel-caption d-none d-md-block">
+            <h3>Visit The Park</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio doloribus velit vero atque sed distinctio temporibus? Dolore aspernatur, similique, illum consequatur doloremque perspiciatis ut delectus in corporis officiis quod sint.</p>
+          </div>
        </div>
 
      </div>
@@ -67,30 +85,31 @@
         </div>
       </div>
     </div>
-
   </Section>
   <!---------------------------------------- how this works -------------------------------------------------->
-<section>
-  <div class="container">
+<section id="how">
+  <div class="container-fluid">
     <div class="row">
+      <h1 class="col-md-12 text-center">How It Works</h1>
       <div class=" col-md-4">
-        <img src="" alt="">
+          <i class="fas fa-binoculars"></i>
         <h3>Be On the Watch</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil esse, aliquam consequuntur nemo odio autem ipsa mollitia officiis dicta quibusdam eius, in rerum sit nam nesciunt recusandae iste soluta aut!</p>
       </div>
       <div class=" col-md-4">
-        <img src="" alt="">
+          <i class="fas fa-user-shield"></i>
         <h3>Play It Safe</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil esse, aliquam consequuntur nemo odio autem ipsa mollitia officiis dicta quibusdam eius, in rerum sit nam nesciunt recusandae iste soluta aut!</p>
       </div>
       <div class=" col-md-4">
-        <img src="" alt="">
-        <h3>Log It All In</h3>
+          <i class="fas fa-edit"></i>
+        <h3>Log It In</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil esse, aliquam consequuntur nemo odio autem ipsa mollitia officiis dicta quibusdam eius, in rerum sit nam nesciunt recusandae iste soluta aut!</p>
       </div>
 
     </div>
   </div>
+  
 </section>
 
 
@@ -106,24 +125,41 @@
               <input type="text" class="form-control" placeholder="ID.">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="attempts">
+              <input type="text" class="form-control" placeholder="Attempts">
             </div>
             <div class="col">
               <input type="text" class="form-control" placeholder="Success">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="times">
+              <input type="text" class="form-control" placeholder="Times">
             </div>
             <div class="col">
               <input type="text" class="form-control" placeholder="Total">
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          
         </form>
 
+        <div class="button">
+          <button type="submit" class="btn btn-primary">Log It!!</button>
+        </div>
+
   </section>
+
   <!---------------------------------------- bears -------------------------------------------------->
-  <section>
+  <section class="da-bears">
+    <div class="container">
+      <h1 class="text-center">Da Bears</h1>
+      <p class="text-centered">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam architecto dignissimos nulla dicta repellendus aspernatur, ut consequuntur vitae eaque, ab saepe excepturi cum vel alias aperiam repudiandae! Dolores, soluta minima.</p>
+        <div class="row">
+
+            <div class="container d-flex flex-wrap"id="card-place"></div>
+          
+        </div>
+      </div>
+
+    </div>
+
 
 
   </section>
@@ -133,17 +169,22 @@
     <div class="contact">
       <h1 class="text-center">Stay In Contact</h1>
       
-        <div class="icons">
-          <img src="/img/social_0002_facebook.png" alt="">
-          <img src="/img/social_0003_twiter.png" alt="">
-          <img src="/img/social_0000_youtube.png" alt="">
-          <img src="/img/social_0001_tumblr.png" alt="">
-        <div>
+        <div class="container">
+
+          <div class="row d-flex justify-content-center">
+            <img src="/img/social_0002_facebook.png" style="width: 40px" alt="">
+            <img src="/img/social_0003_twiter.png" style="width: 40px"alt="">
+            <img src="/img/social_0000_youtube.png" style="width: 40px"alt="">
+            <img src="/img/social_0001_tumblr.png" style="width: 40px"alt="">
+          </div>
+
+        </div>
+
     </div>
 
 </section>
   <!---------------------------------------- copyrights -------------------------------------------------->
-  <section>
+  <section class="copy">
      <div class="container">
         <div class="row d-flex justify-content-center">
           <a class="navbar-brand" href="#">
