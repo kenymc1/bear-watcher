@@ -1,7 +1,7 @@
 # bear-watcher
 A site scientists and park ranger can use to track bears.
 ## Screenshots
-![]
+https://github.com/kenymc1/bear-watcher/issues/7#issue-540719609
 
 ## How to run
 * clown down this project
