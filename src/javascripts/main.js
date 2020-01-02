@@ -93,63 +93,9 @@ const printCards = () => {
 };
 $('#card-place').append(printCards(bearData));
 
-// $(document).ready(() => {
-//   $('div#form1').append(
-//   // Creating Form Div and Adding <h2> and <p> Paragraph Tag in it.
-//     $('<form/>', {
-//       action: '#',
-//       method: '#',
-//     }).append(
-//       // Create <form> Tag and Appending in HTML Div form1.
-//       $('<input/>', {
-//         type: 'text',
-//         id: 'name',
-//         name: 'name',
-//         placeholder: 'Bear Name',
-//       }), // Creating Input Element With Attribute.
-//       $('<input/>', {
-//         type: 'text',
-//         id: 'id',
-//         name: 'id',
-//         placeholder: 'Id',
-//       }),
-//       $('<input/>', {
-//         type: 'text',
-//         id: 'attempts',
-//         name: 'attempts',
-//         placeholder: 'Attempts',
-//       }),
-//       $('<input/>', {
-//         type: 'text',
-//         id: 'success',
-//         name: 'success',
-//         placeholder: 'Success',
-//       }),
-//       $('<input/>', {
-//         type: 'text',
-//         id: 'time',
-//         name: 'time',
-//         placeholder: 'Time',
-//       }),
-//       $('<input/>', {
-//         type: 'text',
-//         id: 'total',
-//         name: 'total',
-//         placeholder: 'Total',
-//       }),
-//       $('<br/>'), $('<input/>', {
-//         type: 'submit',
-//         id: 'submit',
-//         value: 'Submit',
-//       }),
-//     ),
-//   );
-// });
 
 $('button').click((event) => {
   event.preventDefault();
-  // const input = bearData.get();
-  // const inputVal = $('input').val();
   bearData.push({
     image: 'img/Bear_0010_Layer-1.png',
     name: $('#name').val(),
@@ -161,17 +107,4 @@ $('button').click((event) => {
   });
 
   printCards();
-  // const name = $('#name').val();
-  // const id = $('#id').val();
-  // const attempts = $('#attempts').val();
-  // const success = $('#success').val();
-  // const time = $('#time').val();
-  // const total = $('#total').val();
-
-  // $('#preview').html(name);
-  // $('#preview-2').html(id);
-  // $('#preview-3').html(attempts);
-  // $('#preview-4').html(success);
-  // $('#preview-5').html(time);
-  // $('#preview-6').html(total);
 });

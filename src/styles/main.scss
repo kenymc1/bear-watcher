@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   background-color: lightgrey;
 }
@@ -20,14 +21,16 @@ hr {
   background-image: orange;
   width: 70% solid orange;
 }
+
 /* -----------------------------------------------------Nav------------------------------- */
 
-.navbar{
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
 
 }
+
 /* -----------------------------------------------------hero------------------------------- */
 .hero img {
   width: 100%;
@@ -113,16 +116,16 @@ hr {
 
 
 .fa-binoculars {
- font-size: 5em;
- text-align: center;
- color: orange;
- align-content: auto;
- padding-bottom: 30px;
- padding-left: 160px;
+  font-size: 5em;
+  text-align: center;
+  color: orange;
+  align-content: auto;
+  padding-bottom: 30px;
+  padding-left: 160px;
 }
 
 .fa-user-shield {
-  
+
   font-size: 5em;
   text-align: center;
   color: orange;
@@ -171,6 +174,7 @@ hr {
   padding-top: 20px;
   padding-left: 41%;
 }
+
 /* <!---------------------------------------- Da Bears--------------------------------------------------> */
 
 .da-bears {
@@ -214,7 +218,7 @@ hr {
   border-radius: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
-  border:  1px solid orange;
+  border: 1px solid orange;
 }
 
 .profile img {
@@ -222,7 +226,7 @@ hr {
   position: absolute;
   left: calc(50% - 90px);
   border: 10px solid white;
-  
+
 }
 
 .bear {
@@ -234,11 +238,12 @@ hr {
 .profile:hover {
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
 }
+
 /* <!---------------------------------------- contact --------------------------------------------------> */
 
 
 
-.contact img{
+.contact img {
   width: 40px;
   height: 40px;
   margin: 20px;
@@ -262,6 +267,7 @@ hr {
   width: 170px;
   margin: 20px auto 5px;
 }
+
 /* <!---------------------------------------- copyrights --------------------------------------------------> */
 
 .copy {
@@ -269,6 +275,7 @@ hr {
   border-top: 1px solid orange;
   padding-top: 20px
 }
+
 .navbar-brand img {
   justify-content: center;
 }
@@ -276,48 +283,54 @@ hr {
 
 
 @import "http://fonts.googleapis.com/css?family=Raleway";
+
 /*-----------------------------------------------------------------
 CSS settings for HTML Div form1 (Dynamically Created using jQuery)
 ------------------------------------------------------------------*/
-div#form1{
-// width:250px;
-// height:430px;
-// border:2px solid #a5a5a5;
-padding:10px;
-background-color: lightgray;
-border-radius:3px;
-text-align:center;
-margin-left:80px;
-margin-top:10px
-}
-h3,p{
-text-align:center;
-font-family:'Raleway',sans-serif;
-}
-input{
-width:12%;
-margin:10px 10px;
-padding:5px;
-height:35px;
-border-radius:0px;
-box-decoration-break: none;
-}
-input#submit{
-width:10%;
-margin:10px 15px 10px 0;
-padding:5px;
-background-color:#3fb8e8;
-border-radius:10px;
-color:#fff;
-height:41px;
-font-size:16px
+div#form1 {
+  // width:250px;
+  // height:430px;
+  // border:2px solid #a5a5a5;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 10px
 }
 
-div#form{
-margin:30px auto;
-width: auto;
+h3,
+p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
-h2{
-font-family:'Raleway',sans-serif;
-color:#006400;
+
+input {
+  width: 12%;
+  margin: 10px 10px;
+  padding: 5px;
+  height: 35px;
+  border-radius: 0px;
+  box-decoration-break: none;
+}
+
+input#submit {
+  width: 10%;
+  margin: 10px 15px 10px 0;
+  padding: 5px;
+  background-color: #3fb8e8;
+  border-radius: 10px;
+  color: #fff;
+  height: 41px;
+  font-size: 16px
+}
+
+div#form {
+  margin: 30px auto;
+  width: auto;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #006400;
 }
