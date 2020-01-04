@@ -227,11 +227,12 @@ hr {
   border: 1px solid orange;
 }
 
-.profile-image {
+.card-img-top {
   top: -60px;
   border-radius: 50%;
-  left: calc(50% - 90px);
+  // left: calc(50% - 90px);
   border: 1px solid white;
+  border: white solid 5px;
 }
 
 
@@ -266,7 +267,7 @@ a {
 }
 
 .card {
-  background: white;
+  background: #EFECEB;
   margin-bottom: 30px;
   transition: .5s;
   border: 0;
@@ -279,7 +280,7 @@ a {
 
 .card-body {
   font-size: 14px;
-  color: lightgrey;
+  color: grey;
   padding: 20px;
   font-weight: 400;
 }
