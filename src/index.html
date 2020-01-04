@@ -118,34 +118,52 @@
     <h1 class=" text-center">Log It In Here</h1>
       <form>
           
-          <div id="form1">
-            <!-- Dynamic Form Div -->
+        
+          <div id="mainInput" class="container" >
+            <form>
+             <div class="container">
+                <div class="row">
+                  <div class="form-group d-inline-flex ">
+                    <!-- <label for="inputName">Bear Name</label> -->
+                    <input type="text" class="form-control col-md-3" id="inputName" aria-describedby="emailHelp" placeholder="Enter name">
+                    
+                  
+                    <!-- <label for="inputId">Bear ID</label> -->
+                    <input type="text" class="form-control col-md-3" id="inputId" aria-describedby="emailHelp" placeholder="Enter ID">
+                    
+                    
+                    <!-- <label for="inputPic">Image Url</label> -->
+                    <input type="url" class="form-control col-md-3" id="inputPic" placeholder="url">
+                  </div>
+                </div>
+             </div>
+                
+              <button type="button" id="submit" class="btn btn-warning">Submit</button>
             </div>
-          </form>
-        <form>
-          <input id="name" placeholder="Name"></input>
-          <input id="id" placeholder="Id"></input>
-          <input id="attempts" placeholder="Attempts"></input>
-          <input id="success" placeholder="Success"></input>
-          <input id="time" placeholder="Time"></input>
-          <input id="total" placeholder="total"></input>
-        </form>
-
-        <div class="button">
-          <button type="submit" class="btn btn-primary">Log It!!</button>
+        
+        
+          </div>
         </div>
-
-  </section>
-
+      </section>
   <!---------------------------------------- bears -------------------------------------------------->
   <section class="da-bears">
+
     <div class="container">
       <h1 class="text-center">Da Bears</h1>
       <p class="text-centered">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam architecto dignissimos nulla dicta repellendus aspernatur, ut consequuntur vitae eaque, ab saepe excepturi cum vel alias aperiam repudiandae! Dolores, soluta minima.</p>
         <div class="row">
 
-            <div class="container d-flex flex-wrap"id="card-place"></div>
+          <div id="showInfo" class="container">
+
+           
           
+          
+       
+          
+          
+          
+  </div>
+
         </div>
       </div>
 
